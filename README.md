@@ -1,0 +1,3 @@
+# Face-Gender-and-Age-Recognition-Using-Principal-Component-Analysis
+The database was downloaded from the following website: http://aicip.eecs.utk.edu/wiki/UTKFace. Firstly, images were transformed to greyscale and the Viola-Jones algorithm was applied on randomly selected samples to extract face from the background. 
+The principal component analysis was used to generate Eigen faces from the training set images. Training and testing set images were projected on Eigen faces and Euclidian distance was measured between each testing and training image. Gender and age of image from the testing dataset was determined based on the closest image from the training dataset. 
